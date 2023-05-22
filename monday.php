@@ -4,12 +4,12 @@
  * 1/ Créer une couleur aléatoire 
  * (Rappel : une couleur est un assemblage RGB de 3 chiffres de 0 à 255 )
  * 
- * 2/ Afficher en HTML 3 couleurs pour les 3 paragraphes en 
+ * 2/ Afficher en HTML 3 couleurs pour les 3 paragraphes sur la page si dessous 
  */
 
  function generateColor()
  {
-   
+
  }
 
  ?>
