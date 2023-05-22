@@ -9,7 +9,14 @@
 
  function generateColor()
  {
+   $red = rand(0, 255);
+   $green = rand(0, 255);
+   $blue = rand(0, 255);
 
+   return "#" . dechex($red) . 
+               dechex($green) .
+               dechex($blue)
+   ;
  }
 
  ?>
@@ -23,8 +30,8 @@
     <title>Document</title>
  </head>
  <body>
-    <p>Enfin la voilà</p>
-    <p>Semaine tant attendu</p>
-    <p>Youpi, Symfony !</p>
+    <p style="color:<?= generateColor()  ?>">Enfin la voilà</p>
+    <p style="color:<?= generateColor()  ?>">Semaine tant attendu</p>
+    <p style="color:<?= generateColor()  ?>">Youpi, Symfony !</p>
  </body>
  </html>
