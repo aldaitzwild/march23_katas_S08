@@ -19,13 +19,13 @@
     <div id="container">
         <form method="post">
             <input type="color" name="squareColor" id="squareColor">
-            <input type="submit" value="Changer">
+            <input type="submit" value="Changer" id="btnColor">
         </form>
 
         <div id="square">
         </div>
     </div>
 
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
