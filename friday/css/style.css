@@ -1,0 +1,18 @@
+#mainImg {
+    width: 70vw;
+    height: 60vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#menuImg {
+    width: 70vw;
+    height: 20vh;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
